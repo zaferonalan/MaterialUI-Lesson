@@ -1,47 +1,47 @@
 import { Button, FormControl, FormControlLabel, FormHelperText, FormLabel, Radio, RadioGroup } from "@mui/material"
-import { useState } from "react"
+import { ChangeEvent, FormEvent, useState } from "react"
+
 
 
 const LessonRadioGroupExample = () => {
     const [value, setValue] = useState<string>("")
-    const [helperText, setHelperText] = useState<string>("")
-    const [error, setError] = useState<boolean>(false)
+    const [helper, setHelper] = useState("")
+    const [error, setError] = useState(false)
 
-    const handleChangeRadio = (event:React.ChangeEvent<HTMLInputElement>) => {
-        console.log(setValue(event.target.value))
-    }
-
-    const handleSubmit = (event:React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault()
-
         if (value === "3") {
-            setHelperText("Yanlış Cevap")
+            setHelper("Yanlış cevap")
             setError(true)
         }
         else if (value === "4") {
-            setHelperText("Doğru Cevap")
+            setHelper("Tebrikler doğru bildiniz")
             setError(false)
         }
         else if (value === "5") {
-            setHelperText("Yanlış Cevap")
+            setHelper("Yanlış cevap")
             setError(true)
         }
         else{
-            setHelperText("Seçim yapınız")
+            setHelper("Lütfen seçim yapınız")
             setError(true)
         }
+    }
+
+    const handelChangeRadio = (event:ChangeEvent<HTMLInputElement>) => {
+        setValue(event.target.value)
     }
 
   return (
     <form onSubmit={handleSubmit}>
         <FormControl error={error}>
-            <FormLabel>2 + 2 Toplamı kaçtır?</FormLabel>
-            <RadioGroup onChange={handleChangeRadio}>
+            <FormLabel>2 + 2 işleminin Sonucu Kaçtır?</FormLabel>
+            <RadioGroup onChange={handelChangeRadio}>
                 <FormControlLabel value="3" label="3" control={<Radio/>}/>
                 <FormControlLabel value="4" label="4" control={<Radio/>}/>
                 <FormControlLabel value="5" label="5" control={<Radio/>}/>
             </RadioGroup>
-            <FormHelperText>{helperText}</FormHelperText>
+            <FormHelperText>{helper}</FormHelperText>
             <Button type="submit" variant="outlined">Gönder</Button>
         </FormControl>
     </form>
