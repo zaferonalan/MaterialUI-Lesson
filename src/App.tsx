@@ -1,13 +1,14 @@
-import './App.css'
-import LessonTypography from './components/Typeography/LessonTypography'
+import "./App.css";
+import LessonButton from "./components/Button/LessonButton";
+// import LessonTypography from './components/Typeography/LessonTypography'
 
 function App() {
-
   return (
     <>
-      <LessonTypography/>
+      {/* <LessonTypography/> */}
+      <LessonButton />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
