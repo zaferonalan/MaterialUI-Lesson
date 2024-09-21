@@ -1,10 +1,11 @@
 import './App.css'
+import LessonTypography from './components/Typeography/LessonTypography'
 
 function App() {
 
   return (
     <>
-      <h1>Merhaba</h1>
+      <LessonTypography/>
     </>
   )
 }
