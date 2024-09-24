@@ -8,7 +8,8 @@ import "./App.css";
 // import LessonCheckBox from "./components/Checkbox/LessonCheckBox";
 // import LessonAutoComplete from "./components/AutoComplete/LessonAutoComplete";
 // import LessonBox from "./components/Box/LessonBox";
-import LessonStack from "./components/Stack/LessonStack";
+// import LessonStack from "./components/Stack/LessonStack";
+import LessonGrid from "./components/Grid/LessonGrid";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <LessonCheckBox/> */}
       {/* <LessonAutoComplete/> */}
       {/* <LessonBox/> */}
-      <LessonStack/>
+      {/* <LessonStack/> */}
+      <LessonGrid/>
     </>
   );
 }
