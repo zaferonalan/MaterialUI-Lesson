@@ -1,4 +1,5 @@
 import "./App.css";
+import LessonCard from "./components/Card/LessonCard";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -9,7 +10,7 @@ import "./App.css";
 // import LessonAutoComplete from "./components/AutoComplete/LessonAutoComplete";
 // import LessonBox from "./components/Box/LessonBox";
 // import LessonStack from "./components/Stack/LessonStack";
-import LessonGrid from "./components/Grid/LessonGrid";
+// import LessonGrid from "./components/Grid/LessonGrid";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <LessonAutoComplete/> */}
       {/* <LessonBox/> */}
       {/* <LessonStack/> */}
-      <LessonGrid/>
+      {/* <LessonGrid/> */}
+      <LessonCard/>
     </>
   );
 }
