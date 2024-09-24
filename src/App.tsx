@@ -6,7 +6,8 @@ import "./App.css";
 // import LessonRadioGroupExample from "./components/RadioExample/LessonRadioGroupExample";
 // import LessonSelect from "./components/Select/LessonSelect";
 // import LessonCheckBox from "./components/Checkbox/LessonCheckBox";
-import LessonAutoComplete from "./components/AutoComplete/LessonAutoComplete";
+// import LessonAutoComplete from "./components/AutoComplete/LessonAutoComplete";
+import LessonBox from "./components/Box/LessonBox";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <LessonRadioGroupExample/> */}
       {/* <LessonSelect/> */}
       {/* <LessonCheckBox/> */}
-      <LessonAutoComplete/>
+      {/* <LessonAutoComplete/> */}
+      <LessonBox/>
     </>
   );
 }
