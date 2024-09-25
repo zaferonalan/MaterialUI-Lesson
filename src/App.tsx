@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonCard from "./components/Card/LessonCard";
+import LessonAccordion from "./components/Accordion/LessonAccordion";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -11,6 +11,7 @@ import LessonCard from "./components/Card/LessonCard";
 // import LessonBox from "./components/Box/LessonBox";
 // import LessonStack from "./components/Stack/LessonStack";
 // import LessonGrid from "./components/Grid/LessonGrid";
+// import LessonCard from "./components/Card/LessonCard";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <LessonBox/> */}
       {/* <LessonStack/> */}
       {/* <LessonGrid/> */}
-      <LessonCard/>
+      {/* <LessonCard/> */}
+      <LessonAccordion/>
     </>
   );
 }
