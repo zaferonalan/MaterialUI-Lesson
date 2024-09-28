@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonImageList from "./components/ImageList/LessonImageList";
+import LessonPaper from "./components/Paper/LessonPaper";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -14,6 +14,7 @@ import LessonImageList from "./components/ImageList/LessonImageList";
 // import LessonCard from "./components/Card/LessonCard";
 // import LessonAccordion from "./components/Accordion/LessonAccordion";
 // import LessonAppBar from "./components/AppBar/LessonAppBar";
+// import LessonImageList from "./components/ImageList/LessonImageList";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <LessonCard/> */}
       {/* <LessonAccordion/> */}
       {/* <LessonAppBar/> */}
-      <LessonImageList/>
+      {/* <LessonImageList/> */}
+      <LessonPaper/>
     </>
   );
 }
