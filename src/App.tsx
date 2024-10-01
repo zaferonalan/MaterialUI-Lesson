@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonBottomNavigate from "./components/BottomNavigate/LessonBottomNavigate";
+import LessonAvatar from "./components/Avatar/LessonAvatar";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -21,6 +21,7 @@ import LessonBottomNavigate from "./components/BottomNavigate/LessonBottomNaviga
 // import LessonDrawer from "./components/Drawer/LessonDrawer";
 // import LessonBadge from "./components/Badge/LessonBadge";
 // import LessonSpeedDial from "./components/SpeedDial/LessonSpeedDial";
+// import LessonBottomNavigate from "./components/BottomNavigate/LessonBottomNavigate";
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <LessonDrawer/> */}
       {/* <LessonBadge/> */}
       {/* <LessonSpeedDial/> */}
-      <LessonBottomNavigate/>
+      {/* <LessonBottomNavigate/> */}
+      <LessonAvatar/>
     </>
   );
 }
