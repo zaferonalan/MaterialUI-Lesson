@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonDrawer from "./components/Drawer/LessonDrawer";
+import LessonBadge from "./components/Badge/LessonBadge";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -18,6 +18,7 @@ import LessonDrawer from "./components/Drawer/LessonDrawer";
 // import LessonPaper from "./components/Paper/LessonPaper";
 // import LessonLink from "./components/Link/LessonLink";
 // import LessonBreadCrumbs from "./components/BreadCrumbs/LessonBreadCrumbs";
+// import LessonDrawer from "./components/Drawer/LessonDrawer";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <LessonPaper/> */}
       {/* <LessonLink/> */}
       {/* <LessonBreadCrumbs/> */}
-      <LessonDrawer/>
+      {/* <LessonDrawer/> */}
+      <LessonBadge/>
     </>
   );
 }
