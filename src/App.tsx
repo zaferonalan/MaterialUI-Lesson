@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonBadge from "./components/Badge/LessonBadge";
+import LessonSpeedDial from "./components/SpeedDial/LessonSpeedDial";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -19,6 +19,7 @@ import LessonBadge from "./components/Badge/LessonBadge";
 // import LessonLink from "./components/Link/LessonLink";
 // import LessonBreadCrumbs from "./components/BreadCrumbs/LessonBreadCrumbs";
 // import LessonDrawer from "./components/Drawer/LessonDrawer";
+// import LessonBadge from "./components/Badge/LessonBadge";
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <LessonLink/> */}
       {/* <LessonBreadCrumbs/> */}
       {/* <LessonDrawer/> */}
-      <LessonBadge/>
+      {/* <LessonBadge/> */}
+      <LessonSpeedDial/>
     </>
   );
 }
