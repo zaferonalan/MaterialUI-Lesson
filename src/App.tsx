@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonLoadingButton from "./components/LoadingButton/LessonLoadingButton";
+import LessonTable from "./components/Table/LessonTable";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -30,6 +30,7 @@ import LessonLoadingButton from "./components/LoadingButton/LessonLoadingButton"
 // import LessonSnackbar from "./components/Snackbar/LessonSnackbar";
 // import LessonProgress from "./components/Progress/LessonProgress";
 // import LessonSkeleton from "./components/Skeleton/LessonSkeleton";
+// import LessonLoadingButton from "./components/LoadingButton/LessonLoadingButton";
 
 function App() {
   return (
@@ -64,7 +65,8 @@ function App() {
       {/* <LessonSnackbar/> */}
       {/* <LessonProgress/> */}
       {/* <LessonSkeleton/> */}
-      <LessonLoadingButton/>
+      {/* <LessonLoadingButton/> */}
+      <LessonTable/>
     </>
   );
 }
