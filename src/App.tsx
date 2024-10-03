@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonToolTip from "./components/Tooltip/LessonToolTip";
+import LessonAlert from "./components/Alert/LessonAlert";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -24,6 +24,7 @@ import LessonToolTip from "./components/Tooltip/LessonToolTip";
 // import LessonBottomNavigate from "./components/BottomNavigate/LessonBottomNavigate";
 // import LessonAvatar from "./components/Avatar/LessonAvatar";
 // import LessonList from "./components/List/LessonList";
+// import LessonToolTip from "./components/Tooltip/LessonToolTip";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <LessonBottomNavigate/> */}
       {/* <LessonAvatar/> */}
       {/* <LessonList/> */}
-      <LessonToolTip/>
+      {/* <LessonToolTip/> */}
+      <LessonAlert/>
     </>
   );
 }
