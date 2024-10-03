@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonList from "./components/List/LessonList";
+import LessonToolTip from "./components/Tooltip/LessonToolTip";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -23,6 +23,7 @@ import LessonList from "./components/List/LessonList";
 // import LessonSpeedDial from "./components/SpeedDial/LessonSpeedDial";
 // import LessonBottomNavigate from "./components/BottomNavigate/LessonBottomNavigate";
 // import LessonAvatar from "./components/Avatar/LessonAvatar";
+// import LessonList from "./components/List/LessonList";
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
       {/* <LessonSpeedDial/> */}
       {/* <LessonBottomNavigate/> */}
       {/* <LessonAvatar/> */}
-      <LessonList/>
+      {/* <LessonList/> */}
+      <LessonToolTip/>
     </>
   );
 }
