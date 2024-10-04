@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonTable from "./components/Table/LessonTable";
+import LessonDateTime from "./components/DateTime/LessonDateTime";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -31,6 +31,7 @@ import LessonTable from "./components/Table/LessonTable";
 // import LessonProgress from "./components/Progress/LessonProgress";
 // import LessonSkeleton from "./components/Skeleton/LessonSkeleton";
 // import LessonLoadingButton from "./components/LoadingButton/LessonLoadingButton";
+// import LessonTable from "./components/Table/LessonTable";
 
 function App() {
   return (
@@ -66,7 +67,8 @@ function App() {
       {/* <LessonProgress/> */}
       {/* <LessonSkeleton/> */}
       {/* <LessonLoadingButton/> */}
-      <LessonTable/>
+      {/* <LessonTable/> */}
+      <LessonDateTime/>
     </>
   );
 }
