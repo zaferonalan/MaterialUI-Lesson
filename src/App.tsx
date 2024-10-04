@@ -1,5 +1,5 @@
 import "./App.css";
-import LessonTimeLine from "./components/TimeLine/LessonTimeLine";
+import LessonCustomization from "./components/Customization/LessonCustomization";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -36,48 +36,64 @@ import LessonTimeLine from "./components/TimeLine/LessonTimeLine";
 // import LessonDateRange from "./components/DateRange/LessonDateRange";
 // import LessonTabs from "./components/Tabs/LessonTabs";
 // import LessonMasonry from "./components/Masonry/LessonMasonry";
+// import LessonTimeLine from "./components/TimeLine/LessonTimeLine";
+
+import { createTheme, colors, ThemeProvider } from "@mui/material";t
+
+const theme = createTheme({
+  palette: {
+    secondary:{
+      main: colors.brown[500]
+    }
+  }
+})
+
 
 function App() {
   return (
-    <>
-      {/* <LessonTypography/> */}
-      {/* <LessonButton /> */}
-      {/* <LessonTextField/> */}
-      {/* <LessonRadioGroup/> */}
-      {/* <LessonRadioGroupExample/> */}
-      {/* <LessonSelect/> */}
-      {/* <LessonCheckBox/> */}
-      {/* <LessonAutoComplete/> */}
-      {/* <LessonBox/> */}
-      {/* <LessonStack/> */}
-      {/* <LessonGrid/> */}
-      {/* <LessonCard/> */}
-      {/* <LessonAccordion/> */}
-      {/* <LessonAppBar/> */}
-      {/* <LessonImageList/> */}
-      {/* <LessonPaper/> */}
-      {/* <LessonLink/> */}
-      {/* <LessonBreadCrumbs/> */}
-      {/* <LessonDrawer/> */}
-      {/* <LessonBadge/> */}
-      {/* <LessonSpeedDial/> */}
-      {/* <LessonBottomNavigate/> */}
-      {/* <LessonAvatar/> */}
-      {/* <LessonList/> */}
-      {/* <LessonToolTip/> */}
-      {/* <LessonAlert/> */}
-      {/* <LessonDialog/> */}
-      {/* <LessonSnackbar/> */}
-      {/* <LessonProgress/> */}
-      {/* <LessonSkeleton/> */}
-      {/* <LessonLoadingButton/> */}
-      {/* <LessonTable/> */}
-      {/* <LessonDateTime/> */}
-      {/* <LessonDateRange/> */}
-      {/* <LessonTabs/> */}
-      {/* <LessonMasonry/> */}
-      <LessonTimeLine/>
-    </>
+    <ThemeProvider theme={theme}>
+      <>
+        {/* <LessonTypography/> */}
+        {/* <LessonButton /> */}
+        {/* <LessonTextField/> */}
+        {/* <LessonRadioGroup/> */}
+        {/* <LessonRadioGroupExample/> */}
+        {/* <LessonSelect/> */}
+        {/* <LessonCheckBox/> */}
+        {/* <LessonAutoComplete/> */}
+        {/* <LessonBox/> */}
+        {/* <LessonStack/> */}
+        {/* <LessonGrid/> */}
+        {/* <LessonCard/> */}
+        {/* <LessonAccordion/> */}
+        {/* <LessonAppBar/> */}
+        {/* <LessonImageList/> */}
+        {/* <LessonPaper/> */}
+        {/* <LessonLink/> */}
+        {/* <LessonBreadCrumbs/> */}
+        {/* <LessonDrawer/> */}
+        {/* <LessonBadge/> */}
+        {/* <LessonSpeedDial/> */}
+        {/* <LessonBottomNavigate/> */}
+        {/* <LessonAvatar/> */}
+        {/* <LessonList/> */}
+        {/* <LessonToolTip/> */}
+        {/* <LessonAlert/> */}
+        {/* <LessonDialog/> */}
+        {/* <LessonSnackbar/> */}
+        {/* <LessonProgress/> */}
+        {/* <LessonSkeleton/> */}
+        {/* <LessonLoadingButton/> */}
+        {/* <LessonTable/> */}
+        {/* <LessonDateTime/> */}
+        {/* <LessonDateRange/> */}
+        {/* <LessonTabs/> */}
+        {/* <LessonMasonry/> */}
+        {/* <LessonTimeLine/> */}
+        <LessonCustomization/>
+      </>
+    </ThemeProvider>
+    
   );
 }
 
