@@ -1,5 +1,4 @@
 import "./App.css";
-import LessonCustomization from "./components/Customization/LessonCustomization";
 // import LessonTypography from './components/Typeography/LessonTypography'
 // import LessonButton from "./components/Button/LessonButton";
 // import LessonTextField from "./components/TextField/LessonTextField";
@@ -37,8 +36,10 @@ import LessonCustomization from "./components/Customization/LessonCustomization"
 // import LessonTabs from "./components/Tabs/LessonTabs";
 // import LessonMasonry from "./components/Masonry/LessonMasonry";
 // import LessonTimeLine from "./components/TimeLine/LessonTimeLine";
+// import LessonCustomization from "./components/Customization/LessonCustomization";
 
-import { createTheme, colors, ThemeProvider } from "@mui/material";t
+import { createTheme, colors, ThemeProvider, Divider } from "@mui/material";
+import Navbar from "./components/MaterialProject/Navbar";
 
 const theme = createTheme({
   palette: {
@@ -90,7 +91,10 @@ function App() {
         {/* <LessonTabs/> */}
         {/* <LessonMasonry/> */}
         {/* <LessonTimeLine/> */}
-        <LessonCustomization/>
+        {/* <LessonCustomization/> */}
+        <Divider/>
+        {/* Project */}
+        <Navbar/>
       </>
     </ThemeProvider>
     
